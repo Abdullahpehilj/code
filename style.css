@@ -1,38 +1,45 @@
 body {
     
-    background-image: url(https://images.app.goo.gl/9hpf7mWw9W9Eo3sv7) ;
-    background-size: cover;
+    background-image: url("./Moscow-Red-Square-9a8e66e06b49.jpg");
     background-repeat: no-repeat;
-    
+    background-size: cover;
     
 }
 h1 {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #06D85F;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8a0045;
     margin: 80px 0;
+    font-size: 2cm;
 }
 .box {
     width: 40%;
     margin: 0 auto;
     background: rgba(255,255,255,0.2);
     padding: 35px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 20px/50px;
     background-clip: padding-box;
     text-align: center;
+    height: 3cm;
+    margin-top: 5cm;
 }
 button {
     font-size: 1.1em;
     text-decoration: none;
-    border-radius: 20px;
-    border: 2px solid;
+    border-radius: 20px/60px;
+    border: 2px solid #06D85F;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
+    height: 3cm;
+    max-width: 8cm;
+    min-width: 2cm;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 button:hover {
-    background: black;
+    background: #06D85F;
 }
 
 .abc {
@@ -53,7 +60,7 @@ button:hover {
    visibility: hidden;
    opacity: 0;
    background-image: url(https://images.app.goo.gl/JQGJdb9cnfpVLZr46);
-
+   
 }
 .overlay:target {
     visibility: visible;   
@@ -61,18 +68,20 @@ button:hover {
 }
 .pop h2 {
     margin-top: 0;
-    color: #333;
+    color: rgb(255, 255, 255);
     font-family: Tahoma, Arial, sans-serif;
 }
 .pop {
-    margin: 70px auto;
+    margin: 250px auto;
   padding: 20px;
-  background: #fff;
+  background-color: #fff;
   border-radius: 5px;
   width: 30%;
   position: relative;
   transition: all 2s ease-in-out;
   width: 70%;
+  background-image: url(7c943fca-0001-0004-0000-000000502889_w1600_r0.719_fpx49.98_fpy35.94.jpg);
+  color: #fff;
 }
 
 .popup .close {
@@ -99,4 +108,12 @@ button:hover {
 .close {
     font-weight: bold;
     font-size: 50px;
+    
+}
+.pop h2:hover {
+    color: rgb(250, 250, 250);
+}
+.abc:hover {
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease-out 100ms;
 }
