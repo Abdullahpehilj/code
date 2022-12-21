@@ -101,17 +101,23 @@ body {
     text-align: center;
     
    }
+   #butt3{
+    background-color: white; 
+   } 
+
+
+   #butt2{
+       background-image: url(modern-kitchen-meredith-mcbrearty-dallas-1638547900.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-radius: 10px;
+   }
     
    #butt  {
     display: block;
     margin: 0 auto;
     text-align: center;
-    background-image: url(modern-kitchen-meredith-mcbrearty-dallas-1638547900.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: thick white;
-    border-width: 10px;
-    border-radius: 10px;
+    
    }
    button {
     margin-top: 20px;
