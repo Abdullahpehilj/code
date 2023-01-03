@@ -1,155 +1,18 @@
 body {
-  background-color: #24292F;
+  background: url(wp3212531.jpg);
+  background-repeat: no-repeat;
+  background-size:77cm;
+  background-position: -1370px ;
 }
-#top {
-  color: aliceblue;
-  background-color: #707274;
-  height: 70px;
-  margin-top: -10px;
-  margin-left: -8px;
-  margin-right: -8px;
-  
-   }
- 
- 
-
-#tp2  {
-  color: rgb(255, 255, 255);
-     
-      padding-top: 20px;
-      text-align: center;
-      text-decoration: none;
-      font-family: 'Times New Roman', Times, serif;
-}
-#a1  {
+a {
+  margin-top: 350px;
   text-decoration: none;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: aliceblue;
-      font-weight: bold;
-      font-size: 0.7cm;
-      margin: 20px;
-}
-#a1:hover {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2cm;
   color: black;
-  transition: color 0.5s ease-in-out;
 }
+.container {
+  display: grid;
+  place-items: center;
 
-#h11 {
-  color: azure;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-  text-align: center;
 }
-#p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-  color: #b0b3b6;
-  text-align: center;
-   }
-  
-   #back h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 0.8cm;
-   }
-   #back ul {
-    
-    list-style-type: none;
-    
-   }
-   #back li {
-    margin-bottom: 8px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    text-align: center;
-    background-color: rgb(255, 246, 206);
-    border-radius: 50px 14px;
-    margin-right: 60px;
-    margin-left: 50px;
-    }
-   #back {
-    background-image: url(HD-wallpaper-tiramisu-cake-dessert-food-sweet.jpg);
-    background-repeat: no-repeat;
-    border-radius: 50px 14px;
-    background-size: cover;
-    margin: 0 15px;
-    max-height: ;
-    align-self: center;
-    
-    overflow: hidden;
-    float: ;
-    padding-left: -;
-    margin-bottom: 23px;
-   }
-   #prip{
-    background-image: url(modern-kitchen-meredith-mcbrearty-dallas-1638547900.jpg);
-    border-radius: 50px 14px;
-    background-size: cover;
-    background-repeat: no-repeat;
-   }
-   #prip h3{
-    text-align: center;
-    
-    padding-top: 7px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-   }
-   #prip li{
-    margin: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: bisque;
-    border-radius: 14px 14px;
-    text-align: center;
-    
-   }
-   #butt3{
-    background-color: white; 
-   } 
-
-
-   #butt2{
-       background-image: url(modern-kitchen-meredith-mcbrearty-dallas-1638547900.jpg);
-       background-repeat: no-repeat;
-       background-size: cover;
-       border-radius: 10px;
-   }
-    
-   #butt  {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    
-   }
-   button {
-    margin-top: 20px;
-    background-color: rgb(204, 142, 255);
-    font-size: 24px;
-    border-radius:  40px 15px;
-    margin-bottom: 20px;
-    padding: 20px;
-   }
-   #link {
-    text-decoration: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-   }
-   button:hover {
-    cursor: pointer;
-    background-color: black;
-    transition: background 0.5s ease-in-out;
-   }
-   .prija {
-    background-color: aliceblue;
-    margin-bottom: -25px;
-    margin-left: -10px;
-    margin-right: -8px;
-    padding-top: 15px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-   }
-   .prija h3{
-    text-align: center;
-    Padding-bottom: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-   }
-   
